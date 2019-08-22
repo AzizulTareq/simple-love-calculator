@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+        
+        <style>
+            body{
+                background-image: url('https://wallpaperhd.wiki/wp-content/uploads/hd-romantic-backgrounds-wallpaper.wiki-romantic-wallpaper-free-download-pic-wpd005132-DfZJSM.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 100%;
+                height: 100vh;
+                position: relative;
+            }
+            header{
+                width: 100%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+        <div class="card w-50 m-auto text-center">
+            <div class="card-header bg-danger text-white">Love calculator</div>
+            <div class="card-body">
+                <form class="form-inline w-75 m-auto">
+                <div class="form-group">
+                    <input type="text" name ="" class="form-control text-center" placeholder=" Your name">
+                </div>
+                <div> <span class="pl-4 pr-4"> + </span></div>
+                
+                <div class="form-group">
+                        <input type="text" name ="" class="form-control text-center" placeholder=" Love name">
+                    </div>
+                </form>
+                <br>
+
+                <div class="w-75 m-auto" onclick="checkLover()">
+                    <button class="btn btn-success w-50"> Calculate </button>
+                </div>
+                <br>
+
+                <div>
+                    <input type="text" id="lovevalue" class="form-control text-center m-auto w-25" placeholder="Love percentage">
+
+                </div>
+                <br>
+
+            </div>
+            <div class="card-footer" id="lcomment">Stay blessed with your loved person</div>
+          </div>
+        </header>
+        <script src="app.js"></script>
+        </body>
+</html>
